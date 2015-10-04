@@ -10,6 +10,6 @@ sudo apt-get install -y apache2 git
 
 git clone https://github.com/jasonhedlund/application-setup.git
 
-mv ./application-setup /var/www/html
+mv ./application-setup/* /var/www/html
 
 echo "Hello!" > /tmp/hello.txt
