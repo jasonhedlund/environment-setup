@@ -11,6 +11,8 @@ git clone https://github.com/jasonhedlund/application-setup.git
 mv ./application-setup/* /var/www/html
 mv vendor /var/www/html
 
+php composer.phar require aws/aws-sdk-php
+
 php -f /var/www/html/setup.php
 
 sudo chmod 600 /var/www/html/setup.php
